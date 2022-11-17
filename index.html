@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI計算</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>BMI計算</h1>
+            <div class="content">
+                <div class="input">
+                    <label for="height">身長(cm)</label>
+                    <input type="number" id="height">
+                </div>
+                <div class="input">
+                    <label for="weight">体重(kg)</label>
+                    <input type="number" id="weight">
+                </div>
+                <button id="calculate">BMI計算する</button>
+            </div>
+            <div class="result">
+                <p>あなたのBMIは</p>
+                <div id="result">00.00</div>
+                <p class="comment"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
